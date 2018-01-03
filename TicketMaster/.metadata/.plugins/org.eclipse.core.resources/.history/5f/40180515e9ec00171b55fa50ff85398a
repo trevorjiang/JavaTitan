@@ -1,0 +1,15 @@
+package external;
+
+import org.json.JSONArray;
+
+public class TicketMasterAPI {
+	private static final String API_HOST = "app.ticketmaster.com";
+	private static final String SEARCH_PATH = "/discovery/v2/events.json";
+	private static final String DEFAULT_TERM = "";  // no restriction
+	private static final String API_KEY = "yU3CLgQmweL1m2BqdGcoYLgfID2FUHAk";
+	
+	public JSONArray search(double lat, double lon, String term) {
+		return null;
+	}
+
+}
