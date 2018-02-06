@@ -1,7 +1,0 @@
-package external;
-
-import entity.Item;
-
-public interface ExternalAPI {
-	
-}
